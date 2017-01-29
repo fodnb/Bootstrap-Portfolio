@@ -1,0 +1,780 @@
+*{
+	box-sizing: border-box;
+}
+
+#mainmain {
+	border-left: 3px solid #dddddd;
+	border-right: 3px solid #dddddd;
+}
+
+
+#navBar {
+position: relative;
+max-width: 960px;
+width: 100%;
+margin: 0 auto;
+background: #ffffff;
+}
+
+.navbar, .navbar-default{
+	margin-bottom: 0;	
+	border: 3px solid #dddddd;
+}
+
+#navId {
+	margin: 0 8% 0 0	;
+}
+
+
+#myHeader2 {	
+	font-family: 'georgia', times, "times new roman", serif;
+	color: white;
+	background: #4aaaa5;
+	font-weight: 700;
+	margin: 0 0 0 44%;
+	max-width: 1200px;
+	width: 100%;	
+	font-size: 100%;
+}
+
+body{
+	margin: 0 auto;
+}
+
+/*#mainContainer {
+	overflow: auto;
+	margin: 0 auto;
+	max-width: 960px;
+	width: 100%;
+	max-height: 672px;
+	height: 100%;
+}*/
+
+.row {
+	background-image: url("images/fresh_snow_@2X.png");
+	margin: 0 auto;
+	max-width: 960px;
+	width: 100%;
+}
+
+#mainDiv {
+	float: left;
+	max-width: 600px;
+	width: 50%;
+	max-height: 1200px;
+	height: 100%;
+	overflow: auto;
+	margin: 10% 2% 5% 9%;
+	border: 2px solid #dddddd;
+	background: #ffffff;
+	padding: 2%;
+}
+#h2about {
+	font-family: 'georgia', times, "times new roman", serif;
+	color: #4aaaa5;
+	border-bottom: 3px solid #dddddd;
+	margin: 5% 0 5% 0;
+	padding: 0 0 3% 0;
+	font-weight: 700;
+}
+
+#myPhoto {
+	width: 40%;
+	height: 10%;
+	float: left;
+	padding: 0% 2% 2% 0;
+}
+
+#sideBar {
+	/*float: right;*/
+	max-width: 300px;
+	width: 25%;
+	max-height: 672px;
+	height: 100%;
+	overflow: auto;
+	margin: 10% 10% 0% 0;
+	border: 2px solid #dddddd;	
+	background: #ffffff;
+	padding: 2% 4% 2% 4%;
+}
+
+#connectH3 {
+	font-family: 'georgia', times, "times new roman", serif;
+	color: #4aaaa5;
+	border-bottom: 3px solid #dddddd;
+	margin: 0 2% 3% 0%;
+	padding: 0 0 4% 0;
+	text-align: left;
+	font-weight: 700;
+	font-size: 120%;	
+}
+
+#social {
+	margin: 0 5% 0 5%;
+	width: 20%;
+	height: 20%;
+
+	
+}
+
+#sectionSb {
+	padding: 4% 4% 4% 0;
+
+}
+
+#social:first-child {
+	margin: 0 8% 0 0;
+}
+
+#footerDiv {
+	margin: 0 0 0 0;
+	max-width: 960px;
+	width: 100%;
+	max-height: 96px;
+	height: 100%;
+	text-align: center;
+	border-top: 7px solid #4aaaa5;
+	background: #666666;
+	color: white;
+	font-size: 150%;
+	padding: 3%;
+}
+
+/*******************************form****************************************/
+
+
+#myHeader3 {
+	font-family: 'georgia', times, "times new roman", serif;
+	color: white;
+	background: #4aaaa5;
+	font-weight: 700;
+	margin: 0 0 0 32%;
+	width: 100%;
+	height: 110%;
+	font-size: 150%;
+
+}
+
+input {
+	width: 100%;
+	border: 3px solid #dddddd;
+}
+
+textarea {
+	width: 100%;
+	border: 3px solid #dddddd;
+}
+
+#submit {
+	width: 30%;
+	background: #4aaaa5;
+	color: white;
+}
+
+
+
+
+/******************************PORTFOLIO**************************************************/
+
+#myHeader4 {
+	font-family: 'georgia', times, "times new roman", serif;
+	color: white;
+	background: #4aaaa5;
+	font-weight: 700;
+	margin: 0 0 0 32%;
+	width: 100%;
+	height: 110%;
+	font-size: 150%;
+
+}
+
+#ClassPhoto {
+	max-height:800px;
+	height: 2%;
+	width: 45%;
+	margin-bottom: 10%;	
+}
+
+img:nth-child(2) {
+	margin-left: 5%;
+}
+img:nth-child(4) {
+	margin-left: 5%;
+}
+img:nth-child(6) {
+	margin-left: 5%;
+}
+
+
+#photoDiv {
+	padding: 0 10% 0 10%;
+
+}
+
+
+
+@media only screen and (max-width: 980px) {
+
+.row {
+	background-image: url("images/fresh_snow_@2X.png");
+	margin: 0 auto;
+	max-width: 980px;
+	width: 100%;
+}
+
+#mainDiv {
+	
+	max-width: 480px;
+	width: 50%;
+	max-height: 800	px;
+	height: 100%;
+	margin: 10% 2% 5% 9%;
+	border: 2px solid #dddddd;
+	background: #ffffff;
+	font-weight: 700;
+	padding: 2%;
+}
+#h2about {
+	font-family: 'georgia', times, "times new roman", serif;
+	color: #4aaaa5;
+	border-bottom: 3px solid #dddddd;
+	margin: 5% 0 5% 0;
+	padding: 0 0 3% 0;
+	font-weight: 700;
+}
+
+#myPhoto {
+	width: 100%;
+	height: 10%;
+	padding: 0% 5% 2% 4%;
+}
+
+#sideBar {
+	overflow: auto;
+	max-width: 280px;
+	width: 30%;
+	max-height: 672px;
+	height: 120%;
+	margin: 10% 10% 12.5% 0;
+	border: 2px solid #dddddd;	
+	background: #ffffff;
+	padding: 2% 4% 2% 4%;
+	font-size: 150%;
+}
+
+#connectH3 {
+	font-family: 'georgia', times, "times new roman", serif;
+	color: #4aaaa5;
+	border-bottom: 3px solid #dddddd;
+	margin: 0 2% 3% 0%;
+	padding: 0 0 4% 0;
+	text-align: left;
+	font-weight: 700;
+	font-size: 100%;	
+}
+
+#social {
+	margin: 0 5% 0 5%;
+	width: 20%;
+	height: 20%;
+}
+
+#myHeader2 {
+	font-family: 'georgia', times, "times new roman", serif;
+	color: white;
+	background: #4aaaa5;
+	font-weight: 700;
+	margin: 0 0 0 40%;
+	max-width: 1200px;
+	width: 100%;	
+	font-size: 100%;
+
+}
+
+
+#sectionSb {
+	padding: 4% 4% 4% 0;
+
+}
+
+#social:first-child {
+	margin: 0 8% 0 0;
+}
+
+#footerDiv {
+	margin: 0 auto;
+	max-width: 980px;
+	width: 100%;
+	max-height: 96px;
+	height: 100%;
+	text-align: center;
+	border-top: 7px solid #4aaaa5;
+	background: #666666;
+	color: white;
+	font-size: 150%;
+	padding: 3%;
+}
+
+
+/*******************************form****************************************/
+
+
+#myHeader3 {
+	font-family: 'georgia', times, "times new roman", serif;
+	color: white;
+	background: #4aaaa5;
+	font-weight: 700;
+	margin: 0 0 0 30%;
+	width: 100%;
+	height: 110%;
+	font-size: 150%;
+
+}
+
+input {
+	width: 100%;
+	border: 3px solid #dddddd;
+}
+
+textarea {
+	width: 100%;
+	border: 3px solid #dddddd;
+}
+
+#submit {
+	width: 30%;
+	background: #4aaaa5;
+	color: white;
+}
+
+
+
+
+/******************************PORTFOLIO**************************************************/
+
+#myHeader4 {
+	font-family: 'georgia', times, "times new roman", serif;
+	color: white;
+	background: #4aaaa5;
+	font-weight: 700;
+	margin: 0 0 0 28%;
+	width: 100%;
+	height: 110%;
+	font-size: 150%;
+
+}
+
+#ClassPhoto {
+	height: 40%;
+	width: 100%;
+	margin-bottom: 5%;
+
+}
+
+img:nth-child(2) {
+	margin-left: 0;
+}
+img:nth-child(4) {
+	margin-left: 0%;
+}
+img:nth-child(6) {
+	margin-left: 0%;
+}
+
+
+#photoDiv {
+	padding: 0 10% 0 10%;
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+#navBar {
+position: relative;
+max-width: 768px;
+width: 100%;
+/*margin: 0 auto;*/
+background: #ffffff;
+}
+
+
+.row {
+	background-image: url("images/fresh_snow_@2X.png");
+	margin: 0 auto;
+	max-width: 768px;
+	width: 100%;
+	max-height: 2000px;
+	height: 100%;
+}
+
+#mainDiv {
+	
+	max-width: 768px;
+	width: 90%;
+	max-height: 2000px;
+	height: 100%;
+	margin: 10% 0% 5% 5%;
+	border: 2px solid #dddddd;
+	background: #ffffff;
+	font-weight: 700;
+	padding: 4%;
+}
+#h2about {
+	font-family: 'georgia', times, "times new roman", serif;
+	color: #4aaaa5;
+	border-bottom: 3px solid #dddddd;
+	margin: 5% 0 5% 0;
+	padding: 0 0 3% 0;
+	font-weight: 700;
+}
+
+#myPhoto {
+	width: 100%;
+	padding: 0% 0% 4% 0%;
+}
+
+#sideBar {
+	max-width: 768px;
+	width: 90%;
+	max-height: 672px;
+	height: 100%;
+	margin: 0 5% 5% 5%;
+	border: 2px solid #dddddd;	
+	background: #ffffff;
+	padding: 2% 4% 2% 4%;
+	font-size: 150%;
+}
+
+p {
+	text-align: justify;
+}
+
+#connectH3 {
+	font-family: 'georgia', times, "times new roman", serif;
+	color: #4aaaa5;
+	border-bottom: 3px solid #dddddd;
+	margin: 0 2% 3% 0%;
+	padding: 0 0 4% 0;
+	text-align: left;
+	font-weight: 700;
+	font-size: 100%;	
+}
+
+#social {
+	margin: 0 5% 0 5%;
+	width: 10%;
+	height: 10%;
+}
+
+#myHeader2 {
+	font-family: 'georgia', times, "times new roman", serif;
+	color: white;
+	background: #4aaaa5;
+	font-weight: 700;
+	margin: 0 0 0 12%;
+	width: 100%;	
+	font-size: 140%;
+
+}
+
+
+#sectionSb {
+	padding: 0 0 0 0;
+}
+
+#social:first-child {
+	margin: 0 8% 0 0;
+}
+
+#footerDiv {
+	margin: 0 auto;
+	max-width: 980px;
+	width: 100%;
+	max-height: 96px;
+	height: 100%;
+	text-align: center;
+	border-top: 7px solid #4aaaa5;
+	background: #666666;
+	color: white;
+	font-size: 150%;
+	padding: 3%;
+}
+
+
+/*******************************form****************************************/
+
+
+#myHeader3 {
+	font-family: 'georgia', times, "times new roman", serif;
+	color: white;
+	background: #4aaaa5;
+	font-weight: 700;
+	margin: 0 0 0 14%;
+	width: 100%;
+	height: 100%;
+	font-size: 140%;
+
+}
+
+input {
+	width: 100%;
+	border: 3px solid #dddddd;
+}
+
+textarea {
+	width: 100%;
+	border: 3px solid #dddddd;
+}
+
+#submit {
+	width: 30%;
+	background: #4aaaa5;
+	color: white;
+}
+
+
+
+
+/******************************PORTFOLIO**************************************************/
+
+#myHeader4 {
+	font-family: 'georgia', times, "times new roman", serif;
+	color: white;
+	background: #4aaaa5;
+	font-weight: 700;
+	margin: 0 0 0 12%;
+	width: 100%;
+	height: 100%;
+	font-size: 140%;
+
+}
+
+#ClassPhoto {
+	height: 40%;
+	width: 100%;
+	margin-bottom: 5%;
+
+}
+
+img:nth-child(2) {
+	margin-left: 0;
+}
+img:nth-child(4) {
+	margin-left: 0%;
+}
+img:nth-child(6) {
+	margin-left: 0%;
+}
+
+
+#photoDiv {
+	padding: 0 10% 0 10%;
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/********************ENDS 768 ENDS 768 ENDS 768 *************************/
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+
+
+#navBar {
+max-width: 640px;
+width: 100%;
+}
+
+
+.row {
+	max-width: 640px;
+	width: 100%;
+}
+
+#mainDiv {
+	
+	max-width: 640px;
+	width: 90%;
+	max-height: 2000px;
+	height: 100%;
+	margin: 10% 0% 5% 5%;
+	padding: 4%;
+}
+#h2about {	
+	margin: 5% 0 5% 0;
+	padding: 0 0 3% 0;
+}
+
+#myPhoto {
+	padding: 0% 0% 4% 0%;
+}
+
+#sideBar {
+	max-width: 640px;
+	width: 90%;
+	max-height: 672px;
+	height: 100%;
+	margin: 0 5% 5% 5%;
+	padding: 2% 4% 2% 4%;
+	font-size: 150%;
+}
+
+
+#connectH3 {
+	margin: 0 2% 3% 0%;
+	padding: 0 0 4% 0;
+	font-size: 100%;	
+}
+
+#social {
+	margin: 0 5% 0 5%;
+	width: 10%;
+	height: 10%;
+}
+
+#myHeader2 {
+	position: static;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 100%;
+	text-align: center;
+	font-size: 150%
+}
+
+
+#sectionSb {
+	padding: 0 0 0 0;
+}
+
+#social:first-child {
+	margin: 0 8% 0 0;
+}
+
+#footerDiv {
+	margin: 0 auto;
+	max-width: 640px;
+	width: 100%;
+	max-height: 64px;
+	height: 100%;
+	font-size: 150%;
+	padding: 3%;
+}
+
+
+/*******************************form****************************************/
+
+
+#myHeader3 {
+	position: static;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 100%;
+	text-align: center;
+	font-size: 150%
+
+}
+
+input {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
+
+#submit {
+	width: 30%;
+
+}
+
+
+
+
+/******************************PORTFOLIO**************************************************/
+
+#myHeader4 {
+	position: static;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 100%;
+	text-align: center;
+	font-size: 150%
+
+}
+
+#ClassPhoto {
+	height: 40%;
+	width: 100%;
+	margin-bottom: 5%;
+
+}
+
+img:nth-child(2) {
+	margin-left: 0;
+}
+img:nth-child(4) {
+	margin-left: 0%;
+}
+img:nth-child(6) {
+	margin-left: 0%;
+}
+
+
+#photoDiv {
+	padding: 0 10% 0 10%;
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
